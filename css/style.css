@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+}
+
+/* root color*/
+:root{
+    --color-white:#fff;
+    -color-light:#e0f2f1;
+    --color-dark:#004d40;
+    --color-black:#02201b;
+    --color-sucess:#00c853;
+    --color-warning:#ff8f00;
+
+    --color-primary:
+    --transition: all 300ms ease;
+}
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background:var(--color-white);
+}
+nav img {
+  width: 100px;
+}
