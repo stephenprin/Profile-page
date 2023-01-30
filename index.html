@@ -11,26 +11,412 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;700;800&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
-
+    <!--SWIPER CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.47.0/dist/full.css" rel="stylesheet" type="text/css" />
     <title>Personal portfolio</title>
 </head>
-<body>
+<body class="bg-gradient-to-l from-gray-900 to-slate-900">
     <nav>
-       <div class="nav-bar">
-            <a href="#"><h3>Prince</h3></a>
+       <div class="container bg-gradient-to-t from-gray-900 to-slate-800">
+            <a href="#"><img src="images/logo.png" class="logo-img"><h3>Portfolio</h3></a>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#porfolio">Portfolio</a></li>
-                <li><a href="#talk">Let's talk</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#skills">Technologies</a></li>
+                <li><a href="#about">About</a></li> 
+                <li><a href="#contact">Let's Talk</a></li>
             </ul>
-            <i class="fas fa-bars"></i>
-            <i class="far fa-times-circle"></i>
+            <button id="menu-btn"><i class="fas fa-bars btn-icon"></i></button>
+            <button id="close-btn"><i class="far fa-times-circle btn-icon"></i></button>
        </div>
     </nav>
+    <!--END OF NAVBAR-->
+    <section class="profile-stepup">
+        <div class="container bg-gradient-to-l from-gray-900 to-slate-900">
+            <div class="social">
+                
+                <a href="https://medium.com/@stephenprince427"><i class="fab fa-medium"></i><a>
+                <a href="https://github.com/stephenprin"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/prince-nmezi/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="profile-intro">
+                <h1>Software developer...</h1>
+                <h3>hi, I'm Prince Nmezi,</h3>
+                <p> with deep passion for software development,
+                    algorithms and problem-solving. Through years of practicing and personal
+                    project have leverage my abilities to successfully achieve organizational
+                    goal. Strong focus on comprehensive product knowledge in order to meet client requirement
+                    and maximize sales.</p>
+                     <a href="#contact" class="btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full hover:btn btn-primary bg-gradient-to-r from-cyan-800 to-blue-400 rounded-">Let's Talk</a>
+            </div>
+            <div class="profile-zone">
+                <div class="outer-zone">
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-node-js"></i>
+                    <i class="fas fa-server"></i>
+                    <i class="fab fa-react"></i>
+                </div>
+                <div class="inner-zone">
+                    <img src="./images/profile.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+     <div class="container m-0-auto w-[80%]">
+        <hr class="w-[80px] h-[8px] bg-white rounded-full bg-gradient-to-r from-cyan-500 via-cyan-100 to-cyan-800">
+     </div>
+    <section class="portifo" id="porfolio">
+       
+        <div class="container">
+            <h2>Projects</2>
+            
+            <div class="portifos">
+                <div class="porti shadow shadow-blue-600/40 md:shadow-slate-600/40">
+                    <div class="thumbnail">
+                        <img src="./images/project4.png" alt="project2">
+                    </div>
+                   
+                    <div>
+                        <h3 class="text-cyan-600 text-[1.6rem] text-center mb-6">Admin sales Dashboard</h3>
+                    <hr class="w-[50px] h-[3px] bg-gradient-to-r from-cyan-500 via-cyan-100 to-cyan-800 m-auto ">
+                    <p class="text-lg px-8 text-slate-400 text-justify mt-5">Using javaScript, HTML, CSS, Tailwindcss, Angrytools, I build an Ecommerce Dashboard admin analytics customer dashboard 
+                        ecommerce marketing metrics panel platform saas sales service</p>
+                         <div class="port-link mt-4 flex gap-4 ml-8 text-cyan-600 mb-12">
+                            <a class="text-sm" href="https://github.com/stephenprin/Responsive-admin-dashboard">GITHUB</a>
+                            <a class="text-sm text" href="https://admindashboardp.netlify.app/">LIVE DEMO</a>
+                         </div>
+                    </div>
+                </div>
+                <div class="porti shadow shadow-blue-600/40 md:shadow-slate-600/40">
+                    <div class="thumbnail">
+                        <img src="./images/project4.png" alt="project2">
+                    </div>
+                   
+                    <div>
+                        <h3 class="text-cyan-600 text-[1.6rem] text-center mb-6">Admin sales Dashboard</h3>
+                    <hr class="w-[50px] h-[3px] bg-gradient-to-r from-cyan-500 via-cyan-100 to-cyan-800 m-auto ">
+                    <p class="text-lg px-8 text-slate-400 text-justify mt-5">Using javaScript, HTML, CSS, Tailwindcss, Angrytools, I build an Ecommerce Dashboard admin analytics customer dashboard 
+                        ecommerce marketing metrics panel platform saas sales service</p>
+                         <div class="port-link mt-4 flex gap-4 ml-8 mb-12 text-cyan-600">
+                            <a class="text-sm" href="https://github.com/stephenprin/Responsive-admin-dashboard">GITHUB</a>
+                            <a class="text-sm text" href="https://admindashboardp.netlify.app/">LIVE DEMO</a>
+                         </div>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+     </section>
+<!--END OF AHOME LANDING-->
+    <section class="about-me bg-gradient-to-l from-gray-900 to-slate-800" id="about">
+        <h1 class="text-xl">About Me</h1>
+        <div class="container  ">
+            <div class="image ml-10">
+                <img src="images/profile.jpg" alt="" class="rounded-lg">
+            </div>
+            <div class="info">
+                <p class="pr-12">My name is Prince Nmezi, I am a React/Node engineer 👨🏽‍💻 with deep passion for the tech space, 
+                    building to scale web applications using modern technologies. Through practicing and personal projects 
+                    have leverage my abilities to successfully achieve organizational goal, using modern technology such as GraphQL, ReactJS and NodeJS. 
+                    Also handle database management systems with SQL like Postgres or No SQL such as MongoDB and Docker for containerization.
+                     I have experience in UX design, unit, and integration testing 
+                </p>
+                <p class="pr-12">
+                    My background has prepared me to excel in any capacity, with plenty of hands-on classroom and practical experience in software development 
+                    for a variety of usages. My technical abilities, coupled with my adaptability and interpersonal skills, position me ready to thrive in this field.
+                    Additionally, I possess the agile mindset, which is the ability to work in a team environment. Currently, 
+                    I am enhancing my knowledge of Algorithms and Data structures to boost my problem-solving skills .
+                    I am constantly looking for a ways to improve my coding skills and ready to grow at all times.
+                </p>
+                <a href="images/CURRICULUM VITAE.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> Download CV</a>
+            </div>
+
+        </div>
+    </section>
+    <!--END OF ABOUT SECION-->
+    <section class="skills" id="skills">
+        <h1>Skills</h1>
+        <div class="container">
+            <!--FIRST SKILLS-->
+            <div class="skill">
+                <div class="head">
+                    <div class="left">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h4>UI/UX DESIGN</h4>
+                    </div>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+
+                <div class="items">
+                    <!--progressbar 1-->
+                    <div class="item">
+                        <h4>Adobe XD</h4>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>90%</h5>
+                        </div>
+                    </div>
+                    <!--Progressbar 2-->
+                    <div class="item"> 
+                        <h4>Figma</h4>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>82%</h5>
+                        
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--SECOND SKILLS-->
+            <div class="skill">
+                <div class="head">
+                    <div class="left">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h4>FRONTEND DEVELOPMENT</h4>
+                    </div>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+
+                <div class="items">
+                    <!--progressbar 1-->
+                    <div class="item">
+                        <h4>HTML</h4>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>98%</h5>
+                        </div>
+                    </div>
+                    <!--Progressbar 2-->
+                    <div class="item"> 
+                        <h4>CSS</h4>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>80%</h5>
+                        
+                        </div>
+                    </div>
+                    <div class="item"> 
+                        <h4>JAVASCRIPT</h4>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>80%</h5>
+                        
+                        </div>
+                    </div>
+                    <div class="item"> 
+                        <h4>TAILWIND CSS</h4>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>70%</h5>
+                        
+                        </div>
+                    </div>
+                    <div class="item"> 
+                        <h4>BOOTSTRAP</h4>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>85%</h5>
+                        
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!--END OF SKILLS SECTION-->
+    <section class="services" id="services">
+        <h1>Services</h1>
+        <div class="container">
+            <div class="service">
+                <i class="fas fa-database"></i>
+                <h3>Database</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Modi in voluptates aliquid adipisci fuga debitis. Nulla ab consectetur officiis ex, 
+                    magnam atque mollitia deserunt totam!Modi in voluptates aliquid adipisci fuga debitis. Nulla ab consectetur officiis ex, 
+                    magnam atque mollitia deserunt totam!
+                </p>
+
+            </div>
+            <div class="service">
+                <i class="fas fa-pencil-ruler"></i>
+                <h3>UX/UI design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Modi in voluptates aliquid adipisci fuga debitis. Nulla ab consectetur officiis ex, 
+                    magnam atque mollitia deserunt totam!Modi in voluptates aliquid adipisci fuga debitis. Nulla ab consectetur officiis ex, 
+                    magnam atque mollitia deserunt totam!
+                </p>
+
+            </div>
+            <div class="service">
+                <i class="far fa-window-restore"></i>
+                <h3>Web development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Modi in voluptates aliquid adipisci fuga debitis. Nulla ab consectetur officiis ex, 
+                    magnam atque mollitia deserunt totam!Modi in voluptates aliquid adipisci fuga debitis. Nulla ab consectetur officiis ex, 
+                    magnam atque mollitia deserunt totam!
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--END OF SERVICES SECTION-->
+     
+     <!--END OF PORTIFOLIO SECTION-->
+     <section class="testimonial" id="testionial">
+         <h1>Testimonial</h1>
+         <div class="container swiper">
+            <div class="carsouel swiper-wrapper">
+                <div class="testimon swiper-slide">
+                    <div class="head">
+                        <div class="head-left">
+                            <div class="head-img">
+                                <img src="./images/man1.jpg">
+                            </div>
+                            <div class="head-title">
+                                <h5>Matt Cott</h5>
+                                <small>Product Manager(mattcon.org)</small>
+                            </div>
+                        </div>
+                        <div class="head-right">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                   
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tempora eos veniam impedit sunt architecto ex dicta
+                         numquam maiores debitis optio, quibusdam quaerat, blanditiis quod voluptate nostrum facilis accusamus doloremque.</p>
+
+                </div>
+                <!--second testimony-->
+                <div class="testimon swiper-slide">
+                    <div class="head">
+                        <div class="head-left">
+                            <div class="head-img">
+                                <img src="./images/man2.jpg">
+                            </div>
+                            <div class="head-title">
+                                <h5>Mohammed Anaji</h5>
+                                <small>Business Analyst(mohammedali.org)</small>
+                            </div>
+                        </div>
+                        <div class="head-right">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                   
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tempora eos veniam impedit sunt architecto ex dicta
+                         numquam maiores debitis optio, quibusdam quaerat, .</p>
+
+                </div>
+                <!--THIRD TESTIOMONIAL-->
+                <div class="testimon swiper-slide">
+                    <div class="head">
+                        <div class="head-left">
+                            <div class="head-img">
+                                <img src="./images/woman1.jpg">
+                            </div>
+                            <div class="head-title">
+                                <h5>Martha James</h5>
+                                <small>Customer Agent(margretjames.com)</small>
+                            </div>
+                        </div>
+                        <div class="head-right">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                   
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tempora eos veniam impedit sunt architecto ex dicta
+                         numquam maiores debitis optio, 
+                         optio, quibusdam quaerat, blanditiis quod voluptate nostrum facilis accusamus doloremquequibusdam quaerat, blanditiis quod voluptate nostrum facilis accusamus doloremque.</p>
+
+                </div>
+                <!--Fourth testiomonal-->
+                <div class="testimon swiper-slide">
+                    <div class="head">
+                        <div class="head-left">
+                            <div class="head-img">
+                                <img src="./images/woman2.jpg">
+                            </div>
+                            <div class="head-title">
+                                <h5>Katy scot</h5>
+                                <small>Data Anaylst (katyoi.org</small>
+                            </div>
+                        </div>
+                        <div class="head-right">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                   
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tempora eos veniam impedit sunt architecto ex dicta
+                         numquam maiores debitis optio, quibusdam quaerat, blanditiis quod voluptate nostrum .</p>
+
+                </div>
+            </div>
+             <!--END OS TESTIOMONIAL-->
+             <div class="swiper-scrollbar">
+                <div class="swiper-scrollbar-drag"></div>
+            </div>
+         </div>
+
+     </section>
+     <!--CONTACT SECTION-->
+     <section class="contact" id="contact">
+         <div class="overlay">
+             <div class="container">
+                <h1>Let's Talk</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, aliquid impedit eligendi
+                     quaerat amet consectetur adipisicing elit. Aspernat?
+                </p>
+                
+                    <form action="https://formspree.io/f/mlezbrqk"  method="POST">
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="email" placeholder="Email" name="email" required>
+                        <input type="text" placeholder="Subject" name="subject" required>
+                        <textarea rows="10" placeholder="Message" name="message" required></textarea>
+                        <button>Submit</button>
+                    </form>
+
+            
+             </div>
+
+         </div>
+     </section>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
